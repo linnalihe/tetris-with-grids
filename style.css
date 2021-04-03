@@ -1,0 +1,68 @@
+body {
+  background-color: lightgray;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  width: 300px;
+  padding: 10px;
+}
+.grid {
+  display: grid;
+  min-width: 290px;
+  max-width: 290px;
+
+  height: 420px;
+  grid-template-columns: 70% 30%;
+  border: solid;
+}
+
+.gameGrid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 420px;
+  border: lightcoral solid 1px;
+}
+
+.gameGrid div {
+  width: 20px;
+  height: 20px;
+}
+
+.statusGrid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 190px;
+  border: lightgreen solid 1px;
+}
+
+.statusGrid div {
+  width: 21px;
+  height: 21px;
+}
+
+.scoreBoard,
+.lineBoard {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: lightgreen;
+}
+
+.gameCeiling {
+  border-bottom: gray solid;
+}
+
+.statusStyle {
+  position: absolute;
+
+  font-size: 48px;
+}

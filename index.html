@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris with JavaScript</title>
+        
+        <link rel="stylesheet" href="style.css"></link>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+   
+    <body>
+        <div class="container">
+            <div class="controls">
+                <audio src='Tetris_theme.ogg.mp3' id='theme_music'></audio>
+                <audio src='quack.mp3' id='quack_sound'></audio>
+                <h2>Tetris with JavaScript</h2>
+                <h4> >Use Arrow Keys to Move</h4>
+                <h4> >Use Space Bar to Rotate</h4>
+                <button id="start">Start / End Game</button>
+                <button id="pause">Pause / Unpause</button>
+            </div>
+        <div class="grid">
+            <div class="gameGrid"></div>
+            <div class="statusGrid"></div>
+        </div>
+    
+    </div>
+
+        <script charset="uft-8" src="app.js"></script>
+    </body>
+</html>
