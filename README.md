@@ -2,7 +2,7 @@
 
 Tetris game built with javascript and css grid. Come with classic music. Check out the game at [linnali.com/tetris-with-grids]().
 
-![screenshot of tetris with grid](/Screenshot%20from%202021-04-03%2012-35-55.png)
+![screenshot of tetris with grid](/tetris-with-grid-screenshot.png)
 
 ## Mechanics
 
